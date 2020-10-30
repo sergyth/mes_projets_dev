@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #fff;
+}
+.menu{
+	border: 1px solid red;
+	height: 150px;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+
+}
+img{
+	height: 300px;
+	border:1px solid red;
+	opacity: 0.3;
+}
+li{
+	border:1px solid blue;
+
+}
+.cover{
+
+	background-image: url("images/lanterna.jpeg");
+	background-size: cover;
+	height: 300px;
+    border: 1px solid #eb34e8;
+    margin: 10px;
+
+}
+
+.case1{
+	width: 100%;
+	height: 150px;
+	border: 1px solid #eb34e8;
+    margin: 10px 0;
+    background-color: #3462eb;
+}
+.case2{
+	width: 100%;
+	height: 150px;
+	border: 1px solid #eb34e8;
+    margin: 10px 0;
+    background-color:#6f8559;
+}
+.case3{
+	width: 100%;
+	height: 150px;
+	border: 1px solid #eb34e8;
+    margin: 10px 0;
+    background-color:#dbc712;
+}
+.case4{
+	width: 100%;
+	height: 150px;
+	border: 1px solid #eb34e8;
+    margin: 10px 0;
+    background-color: #23e8de;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
