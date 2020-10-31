@@ -1,8 +1,9 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #333;
-	color: #fff;
+	color: #000;
+    font-family: 'Itim', cursive;
+    background-color: #6c5ce7;
 }
 .menu{
 	border: 1px solid red;
@@ -12,15 +13,17 @@ ul{
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
+	background-color: #a29bfe;
 
 }
 img{
 	height: 300px;
-	border:1px solid red;
+	border:1px solid #000;
 	opacity: 0.3;
 }
 li{
-	border:1px solid blue;
+	border:1px solid #0984e3;
+	background-color: #74b9ff;
 
 }
 .cover{
@@ -62,7 +65,12 @@ li{
     background-color: #23e8de;
 }
 
+button{
+	border-radius: 35% 15%;
 
+	color: #575fcf
+	background-color:#81ecec;
+}
 
 
 
