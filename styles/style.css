@@ -1,73 +1,34 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #333;
-	color: #fff;
+	color: #000;
+    font-family: 'Itim', cursive;
+    background-color: #74b9ff;
+
 }
-.menu{
-	border: 1px solid red;
-	height: 150px;
+
+.box_test{
+    width: 50%;
+    height: 200px;
+	background-color: #6c5ce7;
+	border:20px solid #a29bfe ;
+	padding: 20px;
+	margin: 20px;
 }
+
+nav{
+	height: 30%;
+	border:1px solid black;
+	background-color: #0984e3;
+	flex-wrap: wrap;
+}
+
 ul{
-	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
-
+	list-style-type: none;
 }
-img{
-	height: 300px;
-	border:1px solid red;
-	opacity: 0.3;
-}
-li{
-	border:1px solid blue;
-
-}
-.cover{
-
-	background-image: url("images/lanterna.jpeg");
-	background-size: cover;
-	height: 300px;
-    border: 1px solid #eb34e8;
-    margin: 10px;
-
-}
-
-.case1{
-	width: 100%;
-	height: 150px;
-	border: 1px solid #eb34e8;
-    margin: 10px 0;
-    background-color: #3462eb;
-}
-.case2{
-	width: 100%;
-	height: 150px;
-	border: 1px solid #eb34e8;
-    margin: 10px 0;
-    background-color:#6f8559;
-}
-.case3{
-	width: 100%;
-	height: 150px;
-	border: 1px solid #eb34e8;
-    margin: 10px 0;
-    background-color:#dbc712;
-}
-.case4{
-	width: 100%;
-	height: 150px;
-	border: 1px solid #eb34e8;
-    margin: 10px 0;
-    background-color: #23e8de;
-}
-
-
-
-
-
-
-
+ 
 
 
 
