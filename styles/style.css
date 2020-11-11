@@ -10,7 +10,8 @@ h1{
 	text-align: center;
 	color: #000;
     margin: 0 auto;
-    /*padding: auto ;*/
+    /*background-color: #fff;*/
+    padding-top: 3vh;
 }
 header{
 	height: 15vh;
@@ -52,10 +53,13 @@ nav a{
 	height: 10vh;
 	display: flex;
 	justify-content: flex-end;
+	flex-flow: row wrap;
 }
 .main{
 	height: 60vh;
-	background: #f0f6de;
+	background: #FCFFF3;
+	/*margin-left: 10%;*/
+	/*margin-right: 10%;*/
 }
 h2{
     
@@ -75,35 +79,45 @@ button{
 }
 button:hover{
 	background-color: #7860d5;
+	transition: 
 
 }
 
 .foot{
-	height: 57px;
+	height: 7.5vh;
 	display: flex;
 	width: 100%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
+	justify-content: space-between;
+
 }
 .foot1{
 	height: 57px
-	width:70%;
-	border: 1px solid blue;
+	/*width:100%*/
+	/*border: 1px solid blue;*/
+	margin-left:10%;
+    
+	
 }
 .foot2{
-	border: 1px solid red;
+	/*border: 1px solid yellow;*/
 	height: 57px;
-    width: 100%;
-	display: block;
+    width: 100%
+	display: flex;
+	flex-flow: row wrap;
+	
+	
 	/*justify-content: space-around;*/
 }
+
 #fbk, #inst, #ytb{
 	height: 57px;
 	width: 57px;
 	/*border: 1px solid blue;*/
-	display: inline-block;
+	/*display: block;*/
 	position: relative;
 	background-image: url("../images/sprites.png");
-	/*float: right;*/
+	float: left;
 
 
 }
@@ -118,4 +132,14 @@ button:hover{
 }
 h3{
 	margin:0 auto;
+	justify-content: center;
+}
+.cpr{
+    /*border: 1px solid red;*/
+	display: flex;
+	justify-content: center;
+
+}
+#mrs{
+	margin-left: 10%;
 }
