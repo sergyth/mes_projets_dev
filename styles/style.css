@@ -4,21 +4,37 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
+header {
+	height: 15vh;
+	width: 100%;
+	border:1px groove black;
+	background-color: rgba(163,203,56,0.7);
+	
+}
 h1{
-	font-size: 3.5em;
+   
+	/*padding:  auto;*/
+	font-size: 260%;
 	font-weight:bold;
 	text-align: center;
 	color: #000;
-    margin: 0 auto;
+  
     /*background-color: #fff;*/
-    padding-top: 3vh;
+    /*border:1px solid red;*/
+  
 }
-header{
-	height: 15vh;
-	/*border:1px solid red;*/
-	background-color: #A3CB38;
-	opacity: 0.85;
+
+
+.table{
+	display: table;
+	margin: 0 auto;
+	height: 10vh;
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row wrap;
+	font-weight: bold;
 }
+
 nav{
 	/*height: 100%;*/
 	/*border:1px solid red;*/
@@ -31,33 +47,26 @@ nav ul{
 /*border:1px solid red;*/
 }
 nav li{
-	padding: 15px;
+	/*padding: 15px;*/
 	list-style-type: none;
 	float: left;
     /*border:1px solid blue;*/
+    padding:  auto;
 }
 nav a{
-	
+	font-weight: bold;
 	text-decoration: none;
 	color: #000;
-	padding: 10px;
-	font-size: 25px;
+	padding: 0px auto;
+	/*font-size: 25px;*/
     /*border:1px solid black;*/
     
 
 }
 
-.table{
-	display: table;
-	margin: 0 auto;
-	height: 10vh;
-	display: flex;
-	justify-content: flex-end;
-	flex-flow: row wrap;
-}
 .main{
 	height: 60vh;
-	background: #FCFFF3;
+	background: #FFFFFF;
 	/*margin-left: 10%;*/
 	/*margin-right: 10%;*/
 }
@@ -74,12 +83,19 @@ footer{
 }
 
 button{
-	border-radius: 10px;
-	box-shadow: 4px 4px 10px #7860d5; 
+	border-radius: 25% 10%;
+	box-shadow: 4px 4px 10px #7860d5;
+	width:100px; 
+	height: 30px;
+	/*padding: 0 auto;*/
 }
 button:hover{
-	background-color: #7860d5;
+	background-color:#A3CB38;
 	transition: 
+
+}
+button:active{
+	background-color: #7860d5;
 
 }
 
@@ -105,6 +121,8 @@ button:hover{
     width: 100%
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-around;
+	float: left;
 	
 	
 	/*justify-content: space-around;*/
@@ -141,5 +159,6 @@ h3{
 
 }
 #mrs{
-	margin-left: 10%;
+	/*width:100%;
+	/*margin-left: 10%;*/
 }
