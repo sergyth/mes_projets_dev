@@ -1,5 +1,5 @@
 body{
-	font-family: 'Great Vibes', cursive, serif;
+	font-family: 'fondamento', cursive, serif;
 	font-size: 25px;
 	margin: 0px;
 	padding: 0px;
@@ -27,7 +27,7 @@ header:nth-child(2){
 }
 
 h1{
- 
+     /*font-family: 'great vibes';*/
 	/*padding:  auto;*/
 	font-size: 260%;
 	font-weight:bold;
@@ -72,7 +72,7 @@ nav ul{
 nav li{
 	margin: auto;
 	list-style-type: none;
-    border:1px solid blue;
+    /*border:1px solid blue;*/
     padding:  auto;
     display: inline-flex;
 }
