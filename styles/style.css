@@ -67,10 +67,10 @@ ul{
 
 .btn{
     list-style-type: none;
-	margin-right: 15px;
+	margin-right: 4%;
 	width: 100px; 
 	height: 30px;
-	border:2px solid gold;
+	/*border:2px solid gold;*/
 	text-align: center;
 	/*display: block;*/
 	/*padding-top: auto;
@@ -126,7 +126,7 @@ h2{
 	margin:0 auto;
 }
 footer{
-	height: 200%;
+	height: 20%;
     background: linear-gradient( #e2efc0, #64719b);
 	color: #fff;
 	position: relative;
@@ -136,65 +136,104 @@ footer{
 }
 
 .foot{
-	/*height: 7.5vh;*/
+	height: 70%;
 	display: flex;
+	flex-direction: row
 	width: 100%;
 	/*border: 1px solid red;*/
 	justify-content: space-between;
+	align-items: center;
+	z-index: -1;
 
 }
 .foot1{
-	height: 57px
-	/*width:100%*/
+	height: 30px
+	width:50%;
 	/*border: 1px solid blue;*/
-	margin-left:10%;
+	display: flex;
+	padding:10px;
+	/*margin-left:10%;*/
     
 	
 }
 .foot2{
 	/*border: 1px solid yellow;*/
-	height: 57px;
-    width: 100%
+	height: 30px;
+    width: 50%;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
-	float: left;
+	justify-content: flex-end;
+	/*margin-left: 10%;*/
 	
 	
 	/*justify-content: space-around;*/
 }
 
-#fbk, #inst, #ytb{
-	height: 57px;
-	width: 57px;
+#fbk, #inst, #wts{
+	height: 30px;
+	width: 30px;
 	/*border: 1px solid blue;*/
-	/*display: block;*/
-	position: relative;
-	background-image: url("../images/sprites.png");
-	float: left;
+	display: inline-block;
+	/*position: relative;*/
+	background-image: url("../images/icswb.png");
+	margin-right: 7%;
+	border-radius: 5px;
+	padding: 0;
+	
+}
 
+#fbk:hover, #inst:hover, #wts:hover{
+	height: 48px;
+	width: 48px;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	/*position: relative;*/
+	background-image: url("../images/icswb48.png");
+	transition: 500ms;
+	margin-right: 7%;
+	border-radius: 5px;
+	padding: 0;
+	
+}
 
+#fbk{
+    background-position: 3px 0px;
+    background-repeat: no-repeat;
 }
 #inst{
-    background-position: 0px -3px;
+   background-position: -40px 0px;
+   background-repeat: no-repeat; 
 }
-#fbk{
-   background-position: 120px -3px; 
+#wts{
+	background-position: -83px 0px;
+	background-repeat: no-repeat;
 }
-#ytb{
-	background-position: 60px -3px;
+
+#fbk:hover{
+    background-position: 5px 0px;
+    background-repeat: no-repeat;
 }
+#inst:hover{
+   background-position: -58px 0px;
+   background-repeat: no-repeat; 
+}
+#wts:hover{
+	background-position: -122px 0px;
+	background-repeat: no-repeat;
+}
+
+.cpr{
+    height: 28%;
+	/*display: flex;
+	justify-content: center;*/
+
+}
+
 h3{
 	/*margin:0 auto;*/
-	justify-content: center;
+	text-align: center;
 	font-weight: italic;
 	color: #000;
-}
-.cpr{
-    /*border: 1px solid red;*/
-	display: flex;
-	justify-content: center;
-
 }
 #mrs{
 	/*width:100%;
