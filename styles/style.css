@@ -239,12 +239,14 @@ h3{
 
 .art1{
 	width: 49%;
-	border: 2px solid gold;
+	/*border: 2px solid gold;*/
 	margin: 2%;
 	padding: 2%;
-	color: #fff;
+	color: #000;
 	text-align: justify;
-	background-color: #150929;
+	/*background-color: #150929;*/
+	background-color: #fff;
+	border-radius: 5px;
 
 }
 
@@ -258,8 +260,9 @@ h3{
 img{
 	width: 100%;
 	display: block;
-	margin-top: 2%;
-	padding-top: 2%
+	margin: 4% 2% 2% 2%;
+	padding: 1%;
+	border-radius: 10px;
 }
 .blq{
 	width: 100%;
@@ -292,6 +295,10 @@ img{
  .blq>p{
 	text-align: justify;
 	/*border:1px solid blue;*/
+}
+#aut{
+	
+	font: italic 16px roboto;
 }
 
 /**************************media queries**************************************************/
